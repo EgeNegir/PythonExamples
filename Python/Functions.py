@@ -71,7 +71,7 @@ print(asalmi(5))
 def Reverse(cumle):
     reverse=cumle[::-1]
     return reverse
-print(Reverse("cekoslovakyalılastıramadıklarızımdan"))
+print(Reverse("bu cumleyi ters cevir"))
 
 # Girilen cümledeki sesli ve sessiz harf sayısını bulun?
 def SesSiz(cumle):
@@ -97,7 +97,7 @@ def HarfAdet(cumle):
         if i!=" ":
             harfadet+=1
     return harfadet
-print(HarfAdet("sınavı gecersen sana bes bin tl"))
+print(HarfAdet("cumledeki harf adet"))
 
 # girilen metindeki bosluklari continue ifadesiyle silen kod.Karakterler yan yana yazilacak
 def ContinueIleSil(cumle):
